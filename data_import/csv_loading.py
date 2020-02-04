@@ -11,3 +11,6 @@ with open("screaming_fighters.csv",'w') as file:
     csv_writer = writer(file)
     for fighter in fighters:
         csv_writer.writerow(fighter)
+
+
+

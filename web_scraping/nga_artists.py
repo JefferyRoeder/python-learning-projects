@@ -20,7 +20,7 @@ for item in pages:
     last_links = soup.find(class_='AlphaNav')
     last_links.decompose()
 
-    artist_name_list = soup.find(class_='BodyText')
+    artist_name_list = soup.find(class_='nba-stats-table')
 
     artist_name_list_items = artist_name_list.find_all('a')
 
