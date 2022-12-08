@@ -16,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=["tests"]),
     python_requires=">=3.4",
     install_requires=[
-        "certifi==2018.10.15",
+        "certifi==2022.12.7",
         "chardet==3.0.4",
         "idna==2.7",
         "lxml==4.2.5",
